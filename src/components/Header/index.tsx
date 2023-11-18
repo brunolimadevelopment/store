@@ -21,7 +21,7 @@ const Header = () => {
     return (
         <HeaderContainer>
             <HeaderWrapper>
-                <Brand>MKS<Smallbrand>Sistemas</Smallbrand></Brand>
+                <Brand>MKS<Smallbrand>Store</Smallbrand></Brand>
                 <CartComp onClick={handleCartClick}><img className="cartIcon" src={CartIcon} alt="Cart" />{productsCount}</CartComp>
                 <Cart isVisible={cartIsVisible} setIsVisible={setCartIsVisible} />
             </HeaderWrapper>

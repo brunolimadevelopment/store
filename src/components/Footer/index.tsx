@@ -2,7 +2,7 @@ import { Copyright } from './styles'
 
 function Footer() {
     return (
-        <Copyright>MKS sistemas © Todos os direitos reservados</Copyright>
+        <Copyright>MKS Sistemas © Todos os direitos reservados</Copyright>
     )
 }
 

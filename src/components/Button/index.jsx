@@ -1,7 +1,9 @@
-import React from "react";
+import { ReactNode } from "react";
 
 // Styles
 import * as Styles from "./styles";
+
+
 
 const BuyButton = ({ children, startIcon, ...rest }) => {
     return (

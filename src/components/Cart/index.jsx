@@ -1,12 +1,12 @@
 import { useSelector } from "react-redux"
 import { selectProductsTotalPrice } from "../../redux/cart/cart.selectors";
-
 import { IoIosCloseCircle } from "react-icons/io";
 
 
 import CartItem from "../CartItem/index"
 // Styles
 import * as Styles from "./styles";
+
 
 const Cart = ({ isVisible, setIsVisible }) => {
 
